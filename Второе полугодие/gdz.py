@@ -239,7 +239,7 @@ layout = [[sg.Combo(s, default_value=s[0], s=(15,22), enable_events=True, readon
           [sg.Output(s=(60,20), key='outputt'),sg.Image('1.png',expand_x=True, expand_y=True,key='picture')]]
 
 # Create the window
-window = sg.Window('ЕГЭ архив by Слава Воронин', layout)
+window = sg.Window('ЕГЭ архив by Вайс Максим', layout)
 
 # Event loop
 while True:
